@@ -63,7 +63,7 @@ module Data.Password.Scrypt (
 
 import Control.Monad (guard)
 import Control.Monad.IO.Class (MonadIO(liftIO))
-import Crypto.KDF.Scrypt as Scrypt (Parameters(..), generate)
+import Cryptography.Sylvinite.Scrypt as Scrypt
 import Data.ByteArray (Bytes, constEq, convert)
 import Data.ByteString (ByteString)
 import Data.ByteString.Base64 (encodeBase64)

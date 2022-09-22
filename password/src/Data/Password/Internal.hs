@@ -24,7 +24,7 @@ module Data.Password.Internal (
   ) where
 
 import Control.Monad.IO.Class (MonadIO(liftIO))
-import Crypto.Random (getRandomBytes)
+import Cryptography.Sylvinite
 import Data.ByteArray (Bytes, convert)
 import Data.ByteString (ByteString)
 import Data.ByteString.Base64 (decodeBase64)
